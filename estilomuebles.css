@@ -1,0 +1,3208 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
+
+body {
+    background: #F3DEBA;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    margin: 0;
+}
+
+#banner-superior{
+    background: #000000;
+    color: white;
+    width: 100%;
+    height: 25px;
+    font-size: 50%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+#banner-superior h1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    top: -5;
+    left: 5;
+    font-size: 160%;
+}
+
+#banner-superior h2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    top: -30;
+    right: 20;
+}
+
+#banner-de-busqueda{
+    background: #797888;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 60px;
+    font-size: 50%;
+    position: fixed;
+    top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgb(100, 99, 99);
+    z-index: 100;
+}
+
+#botonRecarga{
+    z-index: 210;
+    background: transparent;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    left: 70px;
+    position: fixed;
+    border: none;
+}
+
+#botonRecarga:hover {
+    cursor: pointer;
+}
+
+#banner-de-busqueda input {
+    border-radius: 5px;
+    width: 450px;
+    height: 30px;
+    position: relative;
+    left: -50;
+}
+
+#banner-clases-muebles {
+    background: #454657;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    position: fixed;
+    top: 85px;
+    z-index: 100;
+    border: solid 1px black;
+}
+
+#banner-clases-muebles button {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    background: transparent;
+    border: none; 
+}
+
+#banner-clases-muebles button:hover {
+    color: rgb(0, 0, 255);
+    cursor: pointer;
+}
+
+#salascuadro {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px rgb(109, 109, 109);
+    border-radius: 10px;
+    background: rgb(228, 228, 228);
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#portadaSalas { 
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 40px;
+    left: 4px;
+}
+
+#salascuadro button {
+    height: 40px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    position: absolute;
+    bottom: -15;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 120%;
+}
+
+#salascuadro label:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+}
+
+#comedorescuadro {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column; 
+    border: solid 2px rgb(109, 109, 109);
+    border-radius: 10px;
+    background: rgb(228, 228, 228);
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#portadaComedor { 
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    right: 20px;
+    bottom: 30px;
+}
+
+#comedorescuadro button {
+    height: 40px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    position: absolute;
+    bottom: -15;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 120%;
+}
+
+#comedorescuadro label:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+}
+
+#camascuadro {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px rgb(109, 109, 109);
+    border-radius: 10px;
+    background: rgb(228, 228, 228);
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#portadaCamas { 
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 40px;
+    left: 15px;
+}
+
+#camascuadro button {
+    height: 40px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    position: absolute;
+    bottom: -15;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 120%;
+}
+
+#camascuadro label:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+}
+
+#lineauno {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 200px;
+}
+
+#lineauno div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+
+#estanteriacuadro {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px rgb(109, 109, 109);
+    border-radius: 10px;
+    background: rgb(228, 228, 228);
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#portadaEstanteria { 
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 280px;
+    position: relative;
+    top: -10px;
+    left: 6px;
+}
+
+#estanteriacuadro button {
+    height: 40px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    position: absolute;
+    bottom: -15;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 120%;
+}
+
+#estanteriacuadro label:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+}
+
+#varioscuadro {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px rgb(109, 109, 109);
+    border-radius: 10px;
+    background: rgb(228, 228, 228);
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#portadaVarios { 
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 265px;
+    position: relative;
+    left: 30px;
+}
+
+#varioscuadro button {
+    height: 40px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    position: absolute;
+    bottom: -15;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 120%;
+}
+
+#varioscuadro label:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+}
+
+#cocinacuadro {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px rgb(109, 109, 109);
+    border-radius: 10px;
+    background: rgb(228, 228, 228);
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#portadaCocina { 
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top: 10px;
+    left: -1;
+}
+
+#cocinacuadro button {
+    height: 40px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    position: absolute;
+    bottom: -15;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 120%;
+}
+
+#cocinacuadro label:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+}
+
+#lineados {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 300px;
+}
+
+#lineados div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+
+#banner-final-superior {
+    background: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 370px;
+}
+
+#banner-final{
+    background: black;
+    color: white;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    top: 350px;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#banner-final div {
+    width: 200px;
+    height: 200px;
+    font-size: 50%;
+}
+
+#ubicacionfoto{
+    width: 100px;
+    height: 100px;
+    filter: invert(100%);
+}
+
+#emailfoto{
+    width: 150px;
+    height: 150px;
+    filter: invert(100%);
+}
+
+#telefonofoto{
+    width: 90px;
+    height: 90px;
+    filter: invert(100%);
+}
+
+
+
+#ubicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#email h1 {
+    position: relative;
+    bottom: 35px;
+}
+
+#telefono {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#medios-pago-superior {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 320px;
+}
+
+#medios-pago {
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 300px;
+    width: 100%;
+    height: 80px;
+}
+
+#mastercard {
+    width: 35px;
+    height: 35px;
+}
+
+#visa {
+    width: 35px;
+    height: 35px;
+}
+
+#bancolombia {
+    width: 70px;
+    height: 35px;
+}
+
+#davivienda {
+    width: 35px;
+    height: 35px;
+}
+
+#nequi {
+    width: 50px;
+    height: 35px;
+}
+
+#daviplata {
+    width: 65px;
+    height: 35px;
+}
+
+#pse {
+    width: 35px;
+    height: 35px;
+}
+
+.menu-barras {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 18px;
+    cursor: pointer;
+    z-index: 100;
+    position: fixed;
+    top: 43px;
+    left: 15px;
+}
+  
+.barra {
+    width: 30px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+}
+
+#boton-barras {
+    background: none;
+    border: none;
+    width: 32px;
+    height: 20px;
+    z-index: 100;
+    position: relative;
+    top: 42px;
+    left: 14px;
+}
+
+#boton-barras:hover {
+    cursor: pointer;
+}
+
+#menu-barras-abierto {
+    background: red;
+    width: 150px;
+    height: 400px;
+    z-index: 100;
+    position: relative;
+    top: -1570px;
+}
+
+#lupa {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 45px;
+    left: 760px;
+    z-index: 100;
+    position: fixed;
+}
+
+#carrito {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: 33px;
+    right: 20px;
+    z-index: 100;
+    position: fixed;
+}
+
+#galeria {
+    display: flex;
+    width: 1100px;
+    height: 470px;
+    position: relative;
+    top: 100px;
+    left: 66;
+    
+  }
+  
+#galeria img {
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+  
+#galeria img:hover {
+    cursor: pointer;
+    width: 550px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+#logo {
+    width: 200px;
+    height: 90px;
+    z-index: 200;
+    position: relative;
+    top: 15px;
+    left: 70px;
+    position: fixed;
+}
+
+#salas1 {
+    width: 120%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 110px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#salas1 img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 80px;
+}
+
+#textosalas {
+    position: relative;
+    left: 180px;
+}
+
+#boton-salas1 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#salas1:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#salas2 {
+    width: 120%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#salas2 img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 80px;
+}
+
+#textosalas2 {
+    position: relative;
+    left: 180px;
+}
+
+#boton-salas2 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#salas2:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#salas3 {
+    width: 120%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#salas3 img {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 15px;
+    top: 30px;
+}
+
+#textosalas3 {
+    position: relative;
+    left: 80px;
+}
+
+#boton-salas3 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#salas3:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#salas4 {
+    width: 120%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#salas4 img {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 15px;
+    top: 30px;
+}
+
+#textosalas4 {
+    position: relative;
+    left: 80px;
+}
+
+#boton-salas4 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#salas4:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#salasPadre {
+    display: flex;
+    flex-direction: column;
+}
+
+#comedores1 {
+    width: 105%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 110px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#comedores1 img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 80px;
+}
+
+#textocomedores {
+    position: relative;
+    left: 180px;
+}
+
+#boton-comedores1 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#comedores1:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#comedores2 {
+    width: 105%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#comedores2 img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 80px;
+}
+
+#textocomedores2 {
+    position: relative;
+    left: 180px;
+}
+
+#boton-comedores2 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#comedores2:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#comedores3 {
+    width: 105%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#comedores3 img {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 15px;
+    top: 30px;
+}
+
+#textocomedores3 {
+    position: relative;
+    left: 80px;
+}
+
+#boton-comedores3 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#comedores3:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#comedores4 {
+    width: 105%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#comedores4 img {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 15px;
+    top: 30px;
+}
+
+#textocomedores4 {
+    position: relative;
+    left: 80px;
+}
+
+#boton-comedores4 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#comedores4:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#comedoresPadre {
+    display: flex;
+    flex-direction: column;
+}
+
+#camas1 {
+    width: 120%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 110px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#camas1 img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 80px;
+}
+
+#textocamas {
+    position: relative;
+    left: 180px;
+}
+
+#boton-camas1 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#camas1:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#camas2 {
+    width: 120%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#camas2 img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 80px;
+}
+
+#textocamas2 {
+    position: relative;
+    left: 180px;
+}
+
+#boton-camas2 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#camas2:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#camas3 {
+    width: 120%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#camas3 img {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 15px;
+    top: 30px;
+}
+
+#textocamas3 {
+    position: relative;
+    left: 80px;
+}
+
+#boton-camas3 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#camas3:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#camas4 {
+    width: 120%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#camas4 img {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 15px;
+    top: 30px;
+}
+
+#textocamas4 {
+    position: relative;
+    left: 80px;
+}
+
+#boton-camas4 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#camas4:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#camasPadre {
+    display: flex;
+    flex-direction: column;
+}
+
+#estanterias1 {
+    width: 120%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 110px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#estanterias1 img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 60px;
+    top: 10px;
+}
+
+#textoestanterias {
+    position: relative;
+    left: 180px;
+}
+
+#boton-estanterias1 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#estanterias1:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#estanterias2 {
+    width: 120%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#estanterias2 img {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: -5px;
+}
+
+#textoestanterias2 {
+    position: relative;
+    left: 30px;
+}
+
+#boton-estanterias2 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#estanterias2:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#estanterias3 {
+    width: 120%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#estanterias3 img {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 15px;
+    top: 30px;
+}
+
+#textoestanterias3 {
+    position: relative;
+    left: 80px;
+}
+
+#boton-estanterias3 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#estanterias3:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#estanterias4 {
+    width: 120%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#estanterias4 img {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 15px;
+    top: 30px;
+}
+
+#textoestanterias4 {
+    position: relative;
+    left: 80px;
+}
+
+#boton-estanterias4 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#estanterias4:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#estanteriasPadre {
+    display: flex;
+    flex-direction: column;
+}
+
+#varios1 {
+    width: 110%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 110px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#varios1 img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 60px;
+    top: 10px;
+}
+
+#textovarios {
+    position: relative;
+    left: 180px;
+}
+
+#boton-varios1 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#varios1:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#varios2 {
+    width: 110%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#varios2 img {
+    width: 300px;
+    height: 250px;
+    position: relative;
+    left: 20px;
+}
+
+#textovarios2 {
+    position: relative;
+    left: 130px;
+}
+
+#boton-varios2 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#varios2:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#varios3 {
+    width: 110%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#varios3 img {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 15px;
+    top: 30px;
+}
+
+#textovarios3 {
+    position: relative;
+    left: 80px;
+}
+
+#boton-varios3 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#varios3:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#varios4 {
+    width: 110%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#varios4 img {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 15px;
+    top: 30px;
+}
+
+#textovarios4 {
+    position: relative;
+    left: 80px;
+}
+
+#boton-varios4 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#varios4:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#variosPadre {
+    display: flex;
+    flex-direction: column;
+}
+
+#cocina1 {
+    width: 110%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 110px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#cocina1 img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 60px;
+    top: 10px;
+}
+
+#textococina {
+    position: relative;
+    left: 180px;
+}
+
+#boton-cocina1 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#cocina1:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#cocina2 {
+    width: 110%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#cocina2 img {
+    width: 300px;
+    height: 250px;
+    position: relative;
+    left: 20px;
+}
+
+#textococina2 {
+    position: relative;
+    left: 130px;
+}
+
+#boton-cocina2 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#cocina2:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#cocina3 {
+    width: 110%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#cocina3 img {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 15px;
+    top: 30px;
+}
+
+#textococina3 {
+    position: relative;
+    left: 80px;
+}
+
+#boton-cocina3 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#cocina3:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#cocina4 {
+    width: 110%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid 1px rgb(139, 139, 139);
+}
+
+#cocina4 img {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 15px;
+    top: 30px;
+}
+
+#textococina4 {
+    position: relative;
+    left: 80px;
+}
+
+#boton-cocina4 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    border: none;
+    background: none;
+}
+
+#cocina4:hover {
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+#cocinaPadre {
+    display: flex;
+    flex-direction: column;
+}
+
+#Carrusel-Salas1{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anterior {
+    position: relative;
+    top: -10px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguiente {
+    position: relative;
+    top: -10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anterior:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguiente:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-salas-p1{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-salas-p1 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-salas-p1 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Salas2{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anterior2{
+    position: relative;
+    top: -10px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguiente2 {
+    position: relative;
+    top: -10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anterior2:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguiente2:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-salas-p2{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-salas-p2 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-salas-p2 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Salas3{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anterior3{
+    position: relative;
+    top: 45px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguiente3 {
+    position: relative;
+    top: 45px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anterior3:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguiente3:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-salas-p3{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-salas-p3 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-salas-p3 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Salas4{
+    background: white;
+    width: 600px;
+    height: 380px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anterior4{
+    position: relative;
+    top: 25px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguiente4{
+    position: relative;
+    top: 25px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anterior4:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguiente4:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-salas-p4{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-salas-p4 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-salas-p4 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Comedores1{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anteriorc1 {
+    position: relative;
+    top: -10px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguientec1 {
+    position: relative;
+    top: -10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anteriorc1:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguientec1:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-comedores-p1{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-comedores-p1 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-comedores-p1 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Comedores2{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anteriorc2 {
+    position: relative;
+    top: -10px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguientec2 {
+    position: relative;
+    top: -10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anteriorc2:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguientec2:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-comedores-p2{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-comedores-p2 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-comedores-p2 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Comedores3{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anteriorc3 {
+    position: relative;
+    top: -10px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguientec3 {
+    position: relative;
+    top: -10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anteriorc3:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguientec3:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-comedores-p3{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-comedores-p3 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-comedores-p3 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Comedores4{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anteriorc4 {
+    position: relative;
+    top: -10px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguientec4 {
+    position: relative;
+    top: -10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anteriorc4:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguientec4:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-comedores-p4{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-comedores-p4 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-comedores-p4 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Camas1{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anteriorca1 {
+    position: relative;
+    top: 18px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguienteca1 {
+    position: relative;
+    top: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anteriorca1:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguienteca1:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-camas-p1{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-camas-p1 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-camas-p1 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Camas2{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anteriorca2 {
+    position: relative;
+    top: 18px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguienteca2 {
+    position: relative;
+    top: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anteriorca2:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguienteca2:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-camas-p2{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-camas-p2 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-camas-p2 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Camas3{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anteriorca3 {
+    position: relative;
+    top: 18px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguienteca3 {
+    position: relative;
+    top: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anteriorca3:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguienteca3:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-camas-p3{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-camas-p3 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-camas-p3 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Camas4{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anteriorca4 {
+    position: relative;
+    top: -10px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguienteca4 {
+    position: relative;
+    top: -10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anteriorca4:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguienteca4:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-camas-p4{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-camas-p4 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-camas-p4 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Estanterias1{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anteriore1 {
+    position: relative;
+    top: -10px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguientee1 {
+    position: relative;
+    top: -10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anteriore1:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguientee1:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-estanterias-p1{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-estanterias-p1 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-estanterias-p1 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Estanterias2{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anteriore2 {
+    position: relative;
+    top: -10px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguientee2 {
+    position: relative;
+    top: -10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anteriore2:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguientee2:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-estanterias-p2{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-estanterias-p2 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-estanterias-p2 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Estanterias3{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anteriore3 {
+    position: relative;
+    top: -10px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguientee3 {
+    position: relative;
+    top: -10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anteriore3:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguientee3:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-estanterias-p3{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-estanterias-p3 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-estanterias-p3 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Estanterias4{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anteriore4 {
+    position: relative;
+    top: -10px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguientee4 {
+    position: relative;
+    top: -10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anteriore4:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguientee4:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-estanterias-p4{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-estanterias-p4 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-estanterias-p4 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Varios1{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anteriorv1 {
+    position: relative;
+    top: 18px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguientev1 {
+    position: relative;
+    top: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anteriorv1:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguientev1:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-varios-p1{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-varios-p1 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-varios-p1 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Varios2{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anteriorv2 {
+    position: relative;
+    top: 18px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguientev2 {
+    position: relative;
+    top: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anteriorv2:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguientev2:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-varios-p2{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-varios-p2 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-varios-p2 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Varios3{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anteriorv3 {
+    position: relative;
+    top: 18px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguientev3 {
+    position: relative;
+    top: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anteriorv3:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguientev3:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-varios-p3{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-varios-p3 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-varios-p3 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Varios4{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anteriorv4 {
+    position: relative;
+    top: 18px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguientev4 {
+    position: relative;
+    top: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anteriorv4:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguientev4:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-varios-p4{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-varios-p4 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-varios-p4 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Cocina1{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anteriorco1 {
+    position: relative;
+    top: 18px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguienteco1 {
+    position: relative;
+    top: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anteriorco1:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguienteco1:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-cocina-p1{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-cocina-p1 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-cocina-p1 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Cocina2{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anteriorco2 {
+    position: relative;
+    top: 18px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguienteco2 {
+    position: relative;
+    top: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anteriorco2:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguienteco2:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-cocina-p2{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-cocina-p2 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-cocina-p2 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Cocina3{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anteriorco3 {
+    position: relative;
+    top: 18px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguienteco3 {
+    position: relative;
+    top: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anteriorco3:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguienteco3:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-cocina-p3{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-cocina-p3 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-cocina-p3 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
+
+#Carrusel-Cocina4{
+    background: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anteriorco4 {
+    position: relative;
+    top: 18px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#siguienteco4 {
+    position: relative;
+    top: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 196, 196);
+}
+#anteriorco4:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+#siguienteco4:hover {
+    background: rgb(173, 173, 173);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(109, 109, 109);
+}
+
+#info-cocina-p4{
+    background: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 6px;
+    border: solid 1px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#info-cocina-p4 button {
+    background: rgb(189, 25, 25);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#info-cocina-p4 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(245, 0, 0);
+}
